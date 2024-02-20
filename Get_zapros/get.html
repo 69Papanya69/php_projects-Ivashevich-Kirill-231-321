@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form__wrapper">
+        <h1 class="form__headline">Registration</h1>
+        <form action="get.php" method="post" class="form">
+            <div class="form__personal">
+                <p class="personal__headline">Personal Information</p>
+                <label class="form__label__name">name
+                    <input class="form__input__name" name="name" type="text" placeholder="Kirill Ivashevich">
+                </label>
+                <label class="form__label__date">date of birthday
+                    <input class="form__input__date" type="date">
+                </label>
+                <fieldset class="form__fieldlist__sex">
+                    <legend class="form__legend__sex">sex</legend>
+                    <label class="form__label__sex">Male
+                        <input type="radio" value="Male" name="sex" class="form__input-sexbutton">
+                    </label>
+                    <label class="form__label__sex">Female
+                        <input type="radio" value="Female" name="sex" class="form__input-sexbutton">
+                    </label>
+                </fieldset>
+                <label class="form__label__password">password<span class="red__inscription">*</span>
+                    <input class="form__input__password" type="password">
+                </label>
+            </div>
+            <div class="form__contacts">
+                <p class="personal__headline">Contact information</p>
+                <label class="form__label__email">Email<span class="red__inscription"></span>
+                    <input type="email" name="email" placeholder="aboba@gmail.com" class="form__input__email" required>
+                </label>
+                <label class="form__label__tel">phone number
+                    <input type="tel" name="phone_number" placeholder="89999998989" class="form__input__tel">
+                </label>
+                <fieldset class="form__fieldlist__time">
+                    <legend class="form__legend__time">When is the best time to contact you?</legend>
+                    <label class="form__label">morning
+                        <input type="checkbox" name="time_to_day" value="morning" class="form__input__time">
+                    </label>
+                    <label class="form__label">afternoon
+                        <input type="checkbox" name="time_to_day" value="afternoon" class="form__input__time">
+                    </label>
+                    <label class="form__label">evening
+                        <input type="checkbox" name="time_to_day" value="evening" class="form__input__time">
+                    </label>
+                    <label class="form__label">night
+                        <input type="checkbox" name="time_to_day" value="night" class="form__input__time">
+                    </label>
+                </fieldset>
+                <label class="form__label__adress">adress
+                    <input class="form__input__adress" type="text">
+                </label>
+                <ul class="button__list">
+                    <li><button class="send" type="submit">send</button></li>
+                    <li><button class="reset" type="reset">reset</button></li>
+                    <li><a href=""></li>
+                </ul>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>

@@ -6,6 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <?php echo 'Привет мир!'; ?>
+    <header></header>
+    <main>
+        <?php
+        echo 'Hello, World! Today: '.date("d.m.y").'<br>';
+        
+        ?>
+    </main>
+    <footer></footer>
 </body>
 </html>
