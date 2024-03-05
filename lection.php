@@ -15,102 +15,127 @@
             <?php
                 //ex 1
 
-                $a = 27;
-                $b = 12;
-                $c = round(sqrt($a*$a - $b*$b), 2);
-                echo ("<br>$c<br>");
+                // $a = 27;
+                // $b = 12;
+                // $c = round(sqrt($a*$a - $b*$b), 2);
+                // echo ("<br>$c<br>");
 
-                //ex 2
+                // //ex 2
 
-                $a = 2;
-                $b = 2.0;
-                $c = '2';
-                $d = 'two';
-                $g = true;
-                $f = false;
-                echo gettype ($b+$c);
+                // $a = 2;
+                // $b = 2.0;
+                // $c = '2';
+                // $d = 'two';
+                // $g = true;
+                // $f = false;
+                // echo gettype ($b+$c);
                 
-                //ex 10
+                // //ex 10
 
-                $hunter = 'охотник';
-                $wants = 'желает';
-                $know = 'знать';
-                $fizan = 'фазан'; 
-                $sits = 'сидит';
-                echo("<br>Каждый $hunter $wants $know где $sits $fizan" ); 
+                // $hunter = 'охотник';
+                // $wants = 'желает';
+                // $know = 'знать';
+                // $fizan = 'фазан'; 
+                // $sits = 'сидит';
+                // echo("<br>Каждый $hunter $wants $know где $sits $fizan" ); 
                 
-                //ex 14
-                $quieter = ' Тише '; 
-                $go = ' едешь '; 
-                $further = ' дальше ';
-                $budesh = ' будешь ';
-                $fulstroka = $quieter.$go.$further.$budesh; 
-                echo("<br>$fulstroka<br>" ); 
+                // //ex 14
+                // $quieter = ' Тише '; 
+                // $go = ' едешь '; 
+                // $further = ' дальше ';
+                // $budesh = ' будешь ';
+                // $fulstroka = $quieter.$go.$further.$budesh; 
+                // echo("<br>$fulstroka<br>" ); 
 
-                $give = ' Дают ';
-                $take = ' бери ';
-                $beat = ' бьют '; 
-                $run = ' беги ';
-                $fulstroka = $give.$take.$beat.$run; 
-                echo("<br>$fulstroka<br>" );
+                // $give = ' Дают ';
+                // $take = ' бери ';
+                // $beat = ' бьют '; 
+                // $run = ' беги ';
+                // $fulstroka = $give.$take.$beat.$run; 
+                // echo("<br>$fulstroka<br>" );
 
-                //ex 27
+                // //ex 27
 
-                $a = 4;
-                $b = 3;
-                $c = ' мандаринок';
-                $full = ($a*$b).$c;
-                echo("<br>$full<br>" );
+                // $a = 4;
+                // $b = 3;
+                // $c = ' мандаринок';
+                // $full = ($a*$b).$c;
+                // echo("<br>$full<br>" );
 
-                //ex 28 
-                $a = 7;
-                $b = 4;
-                $c = ' воробья';
-                $full = ($a-$b).$c;
-                echo("<br>$full<br>" );
+                // //ex 28 
+                // $a = 7;
+                // $b = 4;
+                // $c = ' воробья';
+                // $full = ($a-$b).$c;
+                // echo("<br>$full<br>" );
                 
-                //ex 29
-                $a = 2;
-                $b = '2'; 
-                $d = '2a';
-                var_dump($a>$b);
-                var_dump($a>=$d);
-                var_dump($b>$b);
+                // //ex 29
+                // $a = 2;
+                // $b = '2'; 
+                // $d = '2a';
+                // var_dump($a>$b);
+                // var_dump($a>=$d);
+                // var_dump($b>$b);
                 
-                //lab 1.2 var 4 
+                // //lab 1.2 var 4 
 
-                $m1 = array('summer');
-                print $m1[0].'<br>';
+                // $m1 = array('summer');
+                // print $m1[0].'<br>';
 
-                $m2[0] = 'winter';
-                var_dump($m2);
+                // $m2[0] = 'winter';
+                // var_dump($m2);
 
-                $m3 = array(3,'authomn',100);
-                $m3[3] = 7;
-                $m3[5] = 'five';
-                $m3[6] = 22;
-                $m3['arr'] = 'arr';
-                var_dump($m3);
-                foreach($m3 as $value){
-                    echo $value.'<br>';
-                }
-                foreach($m3 as $key=>$value){
-                    echo $key.'=>'.$value.'<br>';
-                }
+                // $m3 = array(3,'authomn',100);
+                // $m3[3] = 7;
+                // $m3[5] = 'five';
+                // $m3[6] = 22;
+                // $m3['arr'] = 'arr';
+                // var_dump($m3);
+                // foreach($m3 as $value){
+                //     echo $value.'<br>';
+                // }
+                // foreach($m3 as $key=>$value){
+                //     echo $key.'=>'.$value.'<br>';
+                // }
 
-                $a=array(1,2);
-                $b=array(3,4);
+                // $a=array(1,2);
+                // $b=array(3,4);
 
-                $c= $a + $b;
-                var_dump($c);
-                echo'<br>';
-                foreach ($c as $key => $value) {
-                    echo $key.'=>'.$value.'<br>';
-                }
-                $d = array(2=> 'a', 3=> 'b', 8=>'c');
-                var_dump($a+$d);
-
+                // $c= $a + $b;
+                // var_dump($c);
+                // echo'<br>';
+                // foreach ($c as $key => $value) {
+                //     echo $key.'=>'.$value.'<br>';
+                // }
+                // $d = array(2=> 'a', 3=> 'b', 8=>'c');
+                // var_dump($a+$d);
                 
+                //Prakticum 3.1
+                //ex№1
+                // Путь к файлу
+                // $file = $_SERVER['DOCUMENT_ROOT'] . '/test.txt';
+
+                // // Текст для записи
+                // $text = '12345';
+
+                // // Запись текста в файл
+                // file_put_contents($file, $text);
+
+                // echo "Текст успешно записан в файл test.txt";
+                
+                $file = 'count.txt';
+
+                // Чтение текущего значения счетчика из файла
+                $count = (int) file_get_contents($file);
+
+                // Увеличение счетчика на 1
+                $count++;
+
+                // Запись нового значения обратно в файл
+                file_put_contents($file, $count);
+
+                // Вывод текущего значения счетчика
+                echo "Страница была обновлена $count раз(а)";
 
             ?>
         </h2>
